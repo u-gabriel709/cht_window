@@ -4,3 +4,5 @@
 #(npm install ws)
 ## і запустіть його 
 #(node server.js)
+
+шоб почать запустіть window_log.html
