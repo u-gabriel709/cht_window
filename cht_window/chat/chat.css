@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    
+}
+
+.chats_list {
+    background-color: grey;
+    width: 30%;
+    height: 668px;
+    padding: 20px;
+    overflow-y: auto; 
+}
+
+.mychat {
+    background-color: rgb(175, 175, 175);
+    width: 70%;
+    height: 668px;
+    float: right;
+}
+
+.header {
+    background-color: rgb(109, 158, 174);
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 25px;
+    color: aliceblue;
+}
+
+.time {
+    font-size: 23px;
+    font-weight: 600;
+    color: rgb(1, 1, 72);
+    font-family: serif;
+    margin-right: 50px;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.new_chat_div {
+    float: top;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+::placeholder {
+    padding-left: 10px;
+    font-weight: 700;
+    color: #fff;
+    font-size: 14px;
+}
+
+.new_chat {
+    width: 270px;
+    height: 40px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    background-color: #b9b9b9;
+    padding-left: 5px;
+}
+
+.add_chat {
+    width: 100px;
+    height: 35px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    background-color: #d66d21;
+    color: #fff;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.all_msg {
+    float: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+#input_msg {
+    width: 500px;
+    height: 50px;
+    border: 3px solid #3d3d3d;
+    background-color: #3555d5f3;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    padding-left: 5px;
+}
+
+#input_msg::-webkit-input-placeholder {
+    color: #fff;
+}
+
+#btn_msg {
+    width: 150px;
+    height: 40px;
+    border: 3px solid #000000;
+    background-color: #0b930df3;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.mychat1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #fff;
+    height: 560px;
+    width: 100%;
+    gap: 20px;
+    background: url('../images/bck_mychat.jpeg') no-repeat;
+    background-size: 100%;
+    overflow-y: auto;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

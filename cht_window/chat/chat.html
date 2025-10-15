@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./chat.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <p class="title">Some title</p>
+            <div class="time"></div>
+        </div>
+        <div class="content">
+            <div class="chats_list">
+                <div class="new_chat_div">
+                    <input type="text" class="new_chat" placeholder="Name of new chat">
+                    <p id="warn_empty_input_newchat"></p>
+                    <button class="add_chat">Add</button>
+                </div>
+                <div class="chats"></div>
+            </div>
+            <div class="mychat">
+                <div class="mychat1"></div>
+                <div class="all_msg">
+                    <input type="text" placeholder="message" id="input_msg">
+                    <button id="btn_msg">Send<button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./chat.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./window_log.css">
+</head>
+<body>
+    <div class="box">
+        <button class="open" onclick="Open_modal()" id="btn_open">Click for open modal window</button>
+    </div>
+    <div class="conteiner">
+        <div class="modal">
+        <div class="content">
+            <div class="top_things">
+                <h3 class="title">Window</h1>
+                <button class="close" onclick="Close_modal()" id="btn_close">&#10006;</button>
+            </div>
+            <img class="modal_img" src="../Images/modal_img.png" alt="">
+            <div class="body">
+                <p>Some text</p>
+                <input type="text" placeholder="username">
+                <input type="password" placeholder="password"/>
+                <input type="checkbox" class="checkbox"> <label for="checkbox">I am living in Antarctica</label>
+                <div class="warn">Checkbox must be true!</div>
+                <button class="login">Login</button>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="./window_log.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,148 @@
+body {
+    background: url('../Images/background.jpg') no-repeat;
+    background-size: 100%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS';
+}
+
+.conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    width: 450px;
+    height: 270px;
+    background-color: rgb(149, 149, 149);
+    border-radius: 20px;
+    margin-top: -120px;
+    display: none;
+    z-index: 500;
+}
+
+.top_things {
+    background-color: rgb(195, 195, 195);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 10px;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 320px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 270px 0 0 0;
+    gap: 20px;
+}
+
+.txt {
+   font-size: 20px;
+   font-weight: 500;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+}
+
+.open {
+    width: 250px;
+    height: 40px;
+    padding: 8px;
+    border: 3px solid #505055;
+    border-radius: 5px;
+    background-color: #ababab;
+    color: #fff;
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+
+.close {
+    color: rgb(171, 7, 7);
+    background-color: #fff;
+    border-radius: 3px;
+    width: 20px;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.modal_img {
+    width: 220px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+    object-fit: cover;
+    float: left;
+    border-radius: 2px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #e8e8e8;
+}
+
+input {
+    width: 170px;
+    height: 25px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.checkbox {
+    width: 15px;
+    height: 15px;
+    margin-right: 150px;
+    margin-top: -5px;
+    display: flex;
+    flex-direction: row;
+}
+
+label {
+    margin: -37px 0 0 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    color: #fff;
+}
+
+.login {
+    margin-top: -10px;
+    width: 170px;
+    height: 35px;
+    background-color: rgba(255, 0, 0, 0.736);
+    color: #fff;
+    border-radius: 5px;
+    border: 2px solid #000;
+}
+
+.warn {
+    color: green;
+    font-size: 17px;
+    font-weight: 600;
+    margin: -15px 0 0 0;
+    display: none;
+}
+
+
+
+
+
+
+
+
